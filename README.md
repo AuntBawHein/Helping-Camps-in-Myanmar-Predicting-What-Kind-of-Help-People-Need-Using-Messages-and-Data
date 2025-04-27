@@ -966,44 +966,42 @@ history = model.fit(
 
 ```
 Epoch 1/10
-203/203 ━━━━━━━━━━━━━━━━━━━━ 3s 6ms/step - accuracy: 0.3514 - loss: 2.2524 - val_accuracy: 0.7847 - val_loss: 0.5965
+203/203 ━━━━━━━━━━━━━━━━━━━━ 2s 6ms/step - accuracy: 0.3639 - loss: 1.8347 - val_accuracy: 0.8403 - val_loss: 0.5471
 
 Epoch 2/10
-203/203 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.6588 - loss: 0.8057 - val_accuracy: 0.9458 - val_loss: 0.3468
+203/203 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.6853 - loss: 0.7052 - val_accuracy: 0.9889 - val_loss: 0.2971
 
 Epoch 3/10
-203/203 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.8045 - loss: 0.4945 - val_accuracy: 1.0000 - val_loss: 0.1806
+203/203 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.8241 - loss: 0.4380 - val_accuracy: 1.0000 - val_loss: 0.1592
 
 Epoch 4/10
-203/203 ━━━━━━━━━━━━━━━━━━━━ 1s 4ms/step - accuracy: 0.8855 - loss: 0.3270 - val_accuracy: 1.0000 - val_loss: 0.1128
+203/203 ━━━━━━━━━━━━━━━━━━━━ 1s 4ms/step - accuracy: 0.9116 - loss: 0.2658 - val_accuracy: 1.0000 - val_loss: 0.0816
 
 Epoch 5/10
-203/203 ━━━━━━━━━━━━━━━━━━━━ 1s 4ms/step - accuracy: 0.9328 - loss: 0.2180 - val_accuracy: 1.0000 - val_loss: 0.0558
+203/203 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.9470 - loss: 0.1756 - val_accuracy: 1.0000 - val_loss: 0.0345
 
 Epoch 6/10
-203/203 ━━━━━━━━━━━━━━━━━━━━ 1s 4ms/step - accuracy: 0.9556 - loss: 0.1486 - val_accuracy: 1.0000 - val_loss: 0.0231
+203/203 ━━━━━━━━━━━━━━━━━━━━ 1s 4ms/step - accuracy: 0.9749 - loss: 0.1125 - val_accuracy: 1.0000 - val_loss: 0.0141
 
 Epoch 7/10
-203/203 ━━━━━━━━━━━━━━━━━━━━ 1s 4ms/step - accuracy: 0.9710 - loss: 0.1113 - val_accuracy: 1.0000 - val_loss: 0.0113
+203/203 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.9802 - loss: 0.0735 - val_accuracy: 1.0000 - val_loss: 0.0055
 
 Epoch 8/10
-203/203 ━━━━━━━━━━━━━━━━━━━━ 1s 4ms/step - accuracy: 0.9826 - loss: 0.0759 - val_accuracy: 1.0000 - val_loss: 0.0074
+203/203 ━━━━━━━━━━━━━━━━━━━━ 1s 5ms/step - accuracy: 0.9884 - loss: 0.0570 - val_accuracy: 1.0000 - val_loss: 0.0036
 
 Epoch 9/10
-203/203 ━━━━━━━━━━━━━━━━━━━━ 1s 4ms/step - accuracy: 0.9884 - loss: 0.0588 - val_accuracy: 1.0000 - val_loss: 0.0052
+203/203 ━━━━━━━━━━━━━━━━━━━━ 1s 4ms/step - accuracy: 0.9910 - loss: 0.0440 - val_accuracy: 1.0000 - val_loss: 0.0025
 
 Epoch 10/10
-203/203 ━━━━━━━━━━━━━━━━━━━━ 1s 4ms/step - accuracy: 0.9889 - loss: 0.0498 - val_accuracy: 1.0000 - val_loss: 0.0024
+203/203 ━━━━━━━━━━━━━━━━━━━━ 1s 4ms/step - accuracy: 0.9936 - loss: 0.0337 - val_accuracy: 1.0000 - val_loss: 0.0018
 ```
 
+## **Conclusion for Step 8: Train and Monitor the Model**
 
-
-
-
-
-
-
-
+I started with an accuracy of **36.39%** and a loss of **1.83**, which shows that I was guessing a lot at the beginning.  
+After 10 rounds of training, my accuracy grew to **99.36%** and my loss dropped to only **0.0337**, meaning my model made almost perfect predictions.  
+At first, the model was confused because the loss was high, but later the loss became much smaller as I learned better patterns from the data.  
+When I tested on new data, my model reached **100% test accuracy**, which showed that I was not just memorizing but really understanding how to predict the help that camps needed.
 
 ## **Step 9: Evaluate the Model**
 
